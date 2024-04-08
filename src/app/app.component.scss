@@ -1,0 +1,19 @@
+:host{
+    display :flex;
+    flex-direction: column;
+    height: 100%;
+}
+.mat-drawer {
+    width: 260px;
+    background-color: #0f172a;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px
+}
+
+.mat-drawer-container{
+    height: 100px;
+}
+
+@media  (max-width:350px) {
+    
+}

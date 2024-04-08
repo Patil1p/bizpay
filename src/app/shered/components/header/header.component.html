@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <mat-toolbar-row class="d-flex justify-content-between ">
+
+    <div classs="logo"><button mat-icon-button (click)="toggleSidebar()"><mat-icon>menu</mat-icon> </button></div>
+    <div class="user-info">
+      <ul>
+        <li>
+          <span class="notification ">
+            <mat-icon matBadge='.' matBadgeColor="warn" matBadgeSize="small"
+              matBadgeOverlap="false">notifications_none</mat-icon>
+          </span>
+
+        </li>
+        <li>
+          <img src="../../../../assets/images/user_img.png" class="user-img mr-2 p-2" alt=" Userjpg">
+          John Smith <mat-icon>keyboard_arrow_down</mat-icon> <br>
+          <p class="admin">(Admin)</p>
+        </li>
+      </ul>
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>
